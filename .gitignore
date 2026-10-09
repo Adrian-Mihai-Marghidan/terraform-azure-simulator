@@ -1,0 +1,31 @@
+/bin/
+/.local/
+/.tools/
+**/.terraform/
+**/.simulator/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+*.log
+*.simulator.json
+*.simulator.json.lock
+*.tfvars
+!*.example.tfvars
+__pycache__/
+*.pyc
+
+# Environment and credential material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.tfvars.json
+!*.example.tfvars.json
+.terraformrc
+terraform.rc
+# Other generated diagnostics and local OS files
+plan.out
+*.log.*
+.DS_Store
